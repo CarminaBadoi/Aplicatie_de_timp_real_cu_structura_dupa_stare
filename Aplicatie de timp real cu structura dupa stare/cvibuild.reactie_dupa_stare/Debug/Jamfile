@@ -1,0 +1,46 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2019\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2019\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2019\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "Declarare_variabile.h" = "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare" ;
+LOCATE on "Functii_Utilitare.h" = "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare" ;
+LOCATE on "Generare_semnal.h" = "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare" ;
+LOCATE on "interfata_grafica.h" = "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare" ;
+LOCATE on "reactie_dupa_stare.c" = "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare" ;
+Object "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\reactie_dupa_stare.obj" : "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\reactie_dupa_stare.c" ;
+FILENUM on "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\reactie_dupa_stare.obj" = 1 ;
+DEFPROTS on "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\reactie_dupa_stare.obj" = "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\reactie_dupa_stare.obj.cvidefprots" ;
+OUTFILE on "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\reactie_dupa_stare.obj" = "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\reactie_dupa_stare.obj.out" ;
+PrjObjects += "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\reactie_dupa_stare.obj" ;
+Object "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\resources.res" : "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\resources.in.rc" ;
+Depends "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\resources.res" : "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\manifest.xml" ;
+MainFromObjects "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\reactie_dupa_stare.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\reactie_dupa_stare.exe" : "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\link_options.txt" ;
+Depends "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\reactie_dupa_stare.exe" : "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\resources.res" ;
+Depends all : "d:\\Facultate\\Anul 4\\CPT\\Proiect\\Aplicatie de timp real cu structura dupa stare\\cvibuild.reactie_dupa_stare\\Debug\\reactie_dupa_stare.exe" ;

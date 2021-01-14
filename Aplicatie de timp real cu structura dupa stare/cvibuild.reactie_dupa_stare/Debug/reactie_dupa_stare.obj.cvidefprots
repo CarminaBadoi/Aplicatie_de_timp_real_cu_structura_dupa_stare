@@ -1,0 +1,15 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="d:\Facultate\Anul 4\CPT\Proiect\Aplicatie de timp real cu structura dupa stare\reactie_dupa_stare.c:15:1"
+
+[Start_Aplicatie]
+Class="Function"
+Prototype="int Start_Aplicatie(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\Facultate\Anul 4\CPT\Proiect\Aplicatie de timp real cu structura dupa stare\reactie_dupa_stare.c:30:1"
+
+[esantionare]
+Class="Function"
+Prototype="int esantionare(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\Facultate\Anul 4\CPT\Proiect\Aplicatie de timp real cu structura dupa stare\reactie_dupa_stare.c:101:1"
+
